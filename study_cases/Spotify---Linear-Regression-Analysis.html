@@ -424,25 +424,32 @@ summary(df)</code></pre>
 ##  Mean   :0.3149   Mean   :1.56e-01   Mean   :0.2136   Mean   :122.15  
 ##  3rd Qu.:0.5980   3rd Qu.:4.90e-02   3rd Qu.:0.2730   3rd Qu.:140.07  
 ##  Max.   :0.9960   Max.   :1.00e+00   Max.   :1.0000   Max.   :243.37</code></pre>
-<p>From the above information, my understanding of these variables are:
-- <code>popularity</code>: a quantity representing how popular a song is
-relative to all the recorded songs, on a 1-100 scale. -
-<code>duration_ms</code>: time length of a song, measured in
-milliseconds. - <code>danceability</code>: a quantity representing how
-easy a song can make its listeners moving with the beat, normalized to a
-0.0 - 1.0 scale. - <code>energy</code>: a quantity measuring intensity
-of a song, can be based on how loud, or fast a song is
-(<code>tempo</code>), normalized to a 0.0 - 1.0 scale. -
-<code>acousticness</code>: a quantity measuring the amount of recorded
-acoustic instrument present in a track, in contrast to synthesized, or
-electronic amplification, normalized to a 0.0 - 1.0 scale. -
-<code>instrumentalness</code>: a quantity measuring the amount of
+<p>From the above information, my understanding of these variables
+are:</p>
+<ul>
+<li><p><code>popularity</code>: a quantity representing how popular a
+song is relative to all the recorded songs, on a 1-100 scale.</p></li>
+<li><p><code>duration_ms</code>: time length of a song, measured in
+milliseconds.</p></li>
+<li><p><code>danceability</code>: a quantity representing how easy a
+song can make its listeners moving with the beat, normalized to a 0.0 -
+1.0 scale.</p></li>
+<li><p><code>energy</code>: a quantity measuring intensity of a song,
+can be based on how loud, or fast a song is (<code>tempo</code>),
+normalized to a 0.0 - 1.0 scale.</p></li>
+<li><p><code>acousticness</code>: a quantity measuring the amount of
+recorded acoustic instrument present in a track, in contrast to
+synthesized, or electronic amplification, normalized to a 0.0 - 1.0
+scale.</p></li>
+<li><p><code>instrumentalness</code>: a quantity measuring the amount of
 instrument (non-lyrical) component in a song, as opposed to vocal
-component (lyric), normalized to a 0.0 - 1.0 scale. -
-<code>liveness</code>: a quantity measuring the presence of audience or
-noise of a recorded song, normalized to a 0.0 - 1.0 scale. -
-<code>tempo</code>: a quantity measuring how fast the beat of a song
-is.</p>
+component (lyric), normalized to a 0.0 - 1.0 scale.</p></li>
+<li><p><code>liveness</code>: a quantity measuring the presence of
+audience or noise of a recorded song, normalized to a 0.0 - 1.0
+scale.</p></li>
+<li><p><code>tempo</code>: a quantity measuring how fast the beat of a
+song is.</p></li>
+</ul>
 <p>We can also look closer at the distribution of each features by
 plotting their histograms.</p>
 <pre><code>## Distribution of  popularity</code></pre>
